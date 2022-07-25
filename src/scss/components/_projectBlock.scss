@@ -1,0 +1,38 @@
+.item-card {
+  width: 33.33%;
+  height: 200px;
+  border: 5px solid blue;
+  display: block;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 0px 10px 0px 10px;
+  h3 {
+    margin: 0px 0px 20px 0px;
+  }
+  p {
+    margin: 0px 0px 20px 0px;
+    max-height: 80px;
+    max-width: 170.328px;
+    overflow: hidden;
+  }
+  .project-card__categories {
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 61px;
+    overflow: hidden;
+    .project-card__categories__item {
+      border: 3px solid rgb(224, 228, 191);
+      border-radius: 15px;
+      padding: 0px 5px 0px 5px;
+      margin: 0px 5px 5px 0px;
+    }
+  }
+  .posts-card__vievs {
+    display: flex;
+    align-items: center;
+    padding-top: 27px;
+    .posts-card__categories__item {
+      margin: 0px 10px 0px 0px;
+    }
+  }
+}
