@@ -1,16 +1,18 @@
 .item-card {
   width: 33.33%;
   height: 200px;
-  border: 5px solid blue;
   display: block;
-  padding: 20px;
   border-radius: 20px;
+  border: double 6px transparent;
+  background-image: linear-gradient(white, white), linear-gradient(-45deg, #fc1ba6, #4094f6);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
   margin: 0px 10px 0px 10px;
   h3 {
-    margin: 0px 0px 20px 0px;
+    margin: 10px 20px 10px 20px;
   }
   p {
-    margin: 0px 0px 20px 0px;
+    margin: 10px 20px 7px 20px;
     max-height: 80px;
     max-width: 170.328px;
     overflow: hidden;
@@ -20,6 +22,7 @@
     flex-wrap: wrap;
     max-height: 61px;
     overflow: hidden;
+    margin: 7px 20px 7px 20px;
     .project-card__categories__item {
       border: 3px solid rgb(224, 228, 191);
       border-radius: 15px;
@@ -30,9 +33,9 @@
   .posts-card__vievs {
     display: flex;
     align-items: center;
-    padding-top: 27px;
+    padding-top: 22px;
     .posts-card__categories__item {
-      margin: 0px 10px 0px 0px;
+      margin: 0px 20px 7px 20px;
     }
   }
 }
